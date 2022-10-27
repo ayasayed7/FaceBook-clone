@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="form2">
+        <div>
+            <h1>Sign Up</h1>
+            <p>It's quick and easy</p>
+            <hr> <br>
+        </div>
+
+        <div>
+            <form action="facebook.html" onsubmit="return formValidate()" novalidate>
+                <div id="error">Please Enter Valid </div>
+                <input type="text" name="fname" id="userName" placeholder="First name" style="width: 220px; height: 30px; border-color: rgba(10, 10, 10, 0.137); border-radius: 5px; background-color: rgba(128, 128, 128, 0.137); ">
+                <input type="text" name="surname" id="surName" placeholder="Surname" style="width: 220px; height: 30px; border-color: rgba(10, 10, 10, 0.137); border-radius: 5px; background-color: rgba(128, 128, 128, 0.137); "> <br> <br>
+                <input type="email" name="email" id="email" placeholder="email address"style="width: 220px; height: 30px; border-color: rgba(10, 10, 10, 0.137); border-radius: 5px; background-color: rgba(128, 128, 128, 0.137); ">
+                <input type="tel" name="tel" id="phone" placeholder="Mobile number"style="width: 220px; height: 30px; border-color: rgba(10, 10, 10, 0.137); border-radius: 5px; background-color: rgba(128, 128, 128, 0.137); "> <br> <br>
+                <input type="password" name="pass" id="paaass" placeholder="new password"style="width: 220px; height: 30px; border-color: rgba(10, 10, 10, 0.137); border-radius: 5px; background-color: rgba(128, 128, 128, 0.137); "><br> <br>
+                <label for="Date"> Date of birth</label><br>
+                <input type="number" name="number" id="number"style="width: 220px; height: 30px; border-color: rgba(10, 10, 10, 0.137); border-radius: 5px; ; ">
+                <input type="month" name="month" id="month" style="width: 220px; height: 30px; border-color: rgba(10, 10, 10, 0.137); border-radius: 5px; ; "><br><br>
+                <label for="Gender"> Gender </label><br>
+                <label for="female">Female</label>
+                <input type="radio" name="Gender" id="female" value="female">
+                <label for="male">Male</label>
+                <input type="radio" name="Gender" id="male" value="male"> <br><br>
+                <input type="submit" value="Sign Up"  style="border: none; color:white; font-size: 20px; padding:12px 70px; margin-left: 120px; background-color: green; border-radius: 8px;" >
+            </form>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
